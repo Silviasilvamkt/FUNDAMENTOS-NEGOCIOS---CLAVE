@@ -1,0 +1,5 @@
+{
+  "name": "Fundamentos de tu Negocio",
+  "description": "Cuestionario por fases para definir los cimientos de tu marca personal y negocio.",
+  "requestFramePermissions": ["microphone"]
+}

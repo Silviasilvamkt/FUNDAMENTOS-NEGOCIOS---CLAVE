@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "DM Serif Display", serif;
+  --font-sans: "Montserrat", sans-serif;
+  --color-gold: #BFA473;
+  --color-brand-red: #F32F64;
+  --color-bg-elegant: #FDFBF7;
+}
+
+@layer base {
+  body {
+    @apply font-sans bg-bg-elegant text-gray-800;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
